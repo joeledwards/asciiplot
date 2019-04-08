@@ -1,11 +1,11 @@
 {
-  "name": "asciichart",
+  "name": "asciiplot",
   "version": "1.5.7",
-  "description": "Nice-looking lightweight console ASCII line charts ╭┈╯ with no dependencies",
-  "main": "asciichart.js",
+  "description": "Nice-looking lightweight console ASCII line charts ╭┈╯ with no dependencies (clone of asciichart)",
+  "main": "asciiplot.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kroitor/asciichart.git"
+    "url": "https://github.com/joeledwards/asciiplot.git"
   },
   "dependencies": {},
   "devDependencies": {
@@ -18,24 +18,24 @@
     "nyc": "^11.0.3"
   },
   "author": {
-    "name": "Igor Kroitor",
-    "email": "igor.kroitor@gmail.com",
-    "url": "https://github.com/kroitor"
+    "name": "Joel Edwards",
+    "email": "joeledwards@gmail.com",
+    "url": "https://github.com/joeledwards"
   },
   "scripts": {
     "test": "nyc --reporter=html --reporter=text mocha --reporter spec",
-    "lint": "eslint asciichart.js",
+    "lint": "eslint asciiplot.js",
     "lint-test": "eslint test.js",
     "autotest": "mocha --reporter spec --watch",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kroitor/asciichart/issues"
+    "url": "https://github.com/joeledwards/asciiplot/issues"
   },
-  "homepage": "https://github.com/kroitor/asciichart",
+  "homepage": "https://github.com/joeledwards/asciiplot",
   "keywords": [
-    "asciichart",
+    "asciiplot",
     "ascii",
     "chart",
     "charting",
