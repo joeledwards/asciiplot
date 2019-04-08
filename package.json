@@ -7,6 +7,12 @@
     "type": "git",
     "url": "https://github.com/joeledwards/asciiplot.git"
   },
+  "files": [
+    "package.json",
+    "README.md",
+    "asciiplog.js",
+    "LICENSE.txt"
+  ],
   "devDependencies": {
     "coveralls": "^2.13.1",
     "esdoc": "^0.5.2",
