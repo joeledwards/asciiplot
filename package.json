@@ -7,7 +7,6 @@
     "type": "git",
     "url": "https://github.com/joeledwards/asciiplot.git"
   },
-  "dependencies": {},
   "devDependencies": {
     "coveralls": "^2.13.1",
     "esdoc": "^0.5.2",
@@ -29,7 +28,7 @@
     "autotest": "mocha --reporter spec --watch",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
-  "license": "MIT",
+  "license": "PUBLIC_DOMAIN",
   "bugs": {
     "url": "https://github.com/joeledwards/asciiplot/issues"
   },

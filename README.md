@@ -1,6 +1,6 @@
 # asciiplot
 
-Console ASCII line charts in pure Javascript (for NodeJS) with no dependencies. This code is absolutely free for any usage, you just do whatever the fuck you want.
+Console ASCII line charts in pure Javascript (for NodeJS) with no dependencies (clone of asciichart). This code is absolutely free for any usage, you just do whatever you want.
 
 <img width="789" alt="Console ASCII Line charts in pure Javascript (for NodeJS)" src="https://cloud.githubusercontent.com/assets/1294454/22818709/9f14e1c2-ef7f-11e6-978f-34b5b595fb63.png">
 
