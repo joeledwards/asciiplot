@@ -45,4 +45,4 @@ var s3 = new Array (width)
 s3[0] = 3
 for (i = 1; i < s3.length; i++)
   s3[i] = 3
-console.log (asciiplot.plot (s3) + "\n")
+console.log (asciiplot.plot (s3, { height: 8 }) + "\n")
